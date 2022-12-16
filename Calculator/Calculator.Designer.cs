@@ -295,4 +295,3 @@
         private System.Windows.Forms.Label lblBuffer;
     }
 }
-
