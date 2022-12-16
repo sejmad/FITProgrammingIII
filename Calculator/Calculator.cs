@@ -125,7 +125,6 @@ namespace Calculator
                     var operation = OperationsStack.Pop();
                     Evaluate(operation);
                 }
-
             }
             txtOutput.Text = Buffer.ToString();
             lblBuffer.Text = Buffer.ToString();
