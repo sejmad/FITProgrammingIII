@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace StudentSearch
+namespace University_Portal___Login_Form
 {
     static class Program
     {
@@ -16,8 +16,7 @@ namespace StudentSearch
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Form startForm = new frmStudents();
-            Application.Run(startForm);
+            Application.Run(new frmLogin());
         }
     }
 }
